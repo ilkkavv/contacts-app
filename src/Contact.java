@@ -1,29 +1,42 @@
+package src;
+
 public class Contact {
-    private String contactId;
+    private int databaseId;     // Identification number for Contacts Database
+    private String contactId;   // National identification number
     private String contactForename;
-    private String contactLastname;
+    private String contactSurname;
     private String contactPhone;
-    private String contactAddress;  // Optional
-    private String contactEmail;    // Optional
+    private String contactAddress = "";  // Optional
+    private String contactEmail = "";    // Optional
 
     // Constructor for the Contact class
-    public Contact(String id, String forename, String lastname,
+    public Contact(String id, String forename, String surname,
                    String phone, String address, String email) {
         contactId = id;
         contactForename = forename;
-        contactLastname = lastname;
+        contactSurname = surname;
         contactPhone = phone;
         contactAddress = address;
         contactEmail = email;
     }
 
-    // Id getter
-    public String getId() {
+    // Database id getter
+    public int getDatabaseId() {
+        return databaseId;
+    }
+
+    // Database id setter
+    public void setDatabaseId(int newId) {
+        databaseId = newId;
+    }
+
+    // Contact id getter
+    public String getContactId() {
         return contactId;
     }
 
-    // Id setter
-    public void setId(String newId) {
+    // Contact id setter
+    public void setContactId(String newId) {
         contactId = newId;
     }
 
@@ -37,14 +50,14 @@ public class Contact {
         contactForename = newForename;
     }
 
-    // Lastname getter
-    public String getLastname() {
-        return contactLastname;
+    // Surname getter
+    public String getSurname() {
+        return contactSurname;
     }
 
-    // Lastname setter
-    public void setLastname(String newLastname) {
-        contactLastname = newLastname;
+    // Surname setter
+    public void setSurname(String newSurname) {
+        contactSurname = newSurname;
     }
 
     // Phone getter
