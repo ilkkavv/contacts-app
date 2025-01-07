@@ -133,7 +133,7 @@ public class GuiAddUpdate extends GuiMode {
 
         addUpdateDatabase = database;
 
-        addUpdateMunicipalities = new File("src" + File.separator + "resources"
+        addUpdateMunicipalities = new File("resources"
                 + File.separator + "data"
                 + File.separator + "municipalities.csv");
 

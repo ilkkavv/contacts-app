@@ -38,8 +38,7 @@ public class ContactDatabase {
      */
     public ContactDatabase() {
         try {
-            database = new File("src" + File.separator + "resources"
-                    + File.separator + "data"
+            database = new File("resources" + File.separator + "data"
                     + File.separator + "contacts.csv");
             if (database.createNewFile()) {
                 FileWriter writer = new FileWriter(database);
