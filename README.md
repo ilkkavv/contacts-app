@@ -68,7 +68,6 @@ This application is a simple contacts application that lets user create, read, u
     -   When viewing a contact's information, click the button with the 'X' symbol on the upper right corner to delete the contact.
 6. **Return to Contacts List**
     -   Click the button with the '<' symbol to return back to the contacts list view.
-
 <br/><br/>
 <div align="center">
   <img src="contacts-app.gif">
