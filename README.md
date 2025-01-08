@@ -69,6 +69,10 @@ This application is a simple contacts application that lets user create, read, u
 6. **Return to Contacts List**
     -   Click the button with the '<' symbol to return back to the contacts list view.
 
+<div align="center">
+  <img src="contacts-app.gif">
+</div>
+
 ## Screencast
 
 [Link to the Screencast](https://youtu.be/gjBwLpvQpkk)
