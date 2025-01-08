@@ -64,6 +64,7 @@ This application is a simple contacts application that lets user create, read, u
     -   Click on a contact name to view contact's information.
 4. **Update Contact**
     -   Click 'UPDATE CONTACT' to update contact's information.
+	-	After editing the contact's personal information, click 'SAVE CHANGES'.
 5. **Delete Contact**
     -   When viewing a contact's information, click the button with the 'X' symbol on the upper right corner to delete the contact.
 6. **Return to Contacts List**
