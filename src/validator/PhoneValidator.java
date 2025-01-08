@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,7 +16,10 @@ public final class PhoneValidator {
     }
 
     /**
-     * Checks if a given mobile phone number is valid.
+     * Checks if a given mobile phone number is valid. The code for using regex
+     * was borrowed from w3schools.
+     *
+     * @see <a href="https://www.w3schools.com/java/java_regex.asp">w3schools</a>
      *
      * @param phoneNumber Mobile phone number to be checked.
      * @return {@code true} if the given mobile phone number is valid

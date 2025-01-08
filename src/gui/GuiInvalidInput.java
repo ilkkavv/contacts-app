@@ -1,4 +1,4 @@
-package src.gui;
+package gui;
 
 import javax.swing.Box;
 import javax.swing.BoxLayout;

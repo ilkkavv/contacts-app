@@ -1,7 +1,7 @@
-package src.gui;
+package gui;
 
-import src.contact.Contact;
-import src.contact.ContactDatabase;
+import contact.Contact;
+import contact.ContactDatabase;
 
 
 import javax.swing.Box;

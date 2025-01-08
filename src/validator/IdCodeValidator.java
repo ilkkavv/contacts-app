@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -48,11 +48,7 @@ public final class IdCodeValidator {
      * a valid date. This method for validating date was borrowed from
      * stackoverflow.
      *
-     * <pre>
-     * @see <a href="https://stackoverflow.com/questions/20231539/java-check-
-     * the-date-format-of-current-string-is-according-to-required-format-
-     * or">stackoverflow</a>
-     * </pre>
+     * @see <a href="https://stackoverflow.com/questions/20231539/java-check-the-date-format-of-current-string-is-according-to-required-format-or">stackoverflow</a>
      *
      * @param idCode Finnish personal ID number to be checked.
      * @return {@code true} if the given finnish personal ID number's birthdate

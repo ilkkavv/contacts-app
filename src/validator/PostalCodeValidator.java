@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import javax.swing.JTextField;
 import java.io.BufferedReader;
@@ -27,8 +27,9 @@ public final class PostalCodeValidator {
     }
 
     /**
-     * Checks if a given postal code is valid. If city was also input, the given
-     * postal code is compared to the given city.
+     * Checks if a given postal code is valid. The goven postal code must match
+     * one of the postal codes specified in the municipalities database file. If
+     * city was also input, the given postal code must match the given city.
      *
      * @param postalCode Postal code to be checked.
      * @param city City that the given postal code will be checked against.

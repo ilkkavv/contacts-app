@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import javax.swing.JTextField;
 import java.util.regex.Matcher;
@@ -17,13 +17,13 @@ public final class EmailValidator {
     }
 
     /**
-     * Checks if a given email address is valid. The regex for validating email
-     * was borrowed from HowToDoInJava.
+     * Checks if a given email address is valid. The code for using regex was
+     * borrowed from w3schools. The regex for validating email was borrowed from
+     * HowToDoInJava.
      *
-     * <pre>
-     * @see <a href="https://howtodoinjava.com/java/
-     * regex/java-regex-validate-email-address/">HowToDoInJava</a>
-     * </pre>
+     * @see <a href="https://www.w3schools.com/java/java_regex.asp">w3schools</a>
+     *
+     * @see <a href="https://howtodoinjava.com/java/regex/java-regex-validate-email-address/">HowToDoInJava</a>
      *
      * @param email Email address to be checked.
      * @param textField The text field the email address input was given in.

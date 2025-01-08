@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import javax.swing.JTextField;
 import java.io.BufferedReader;

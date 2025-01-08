@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import javax.swing.JTextField;
 import java.util.regex.Matcher;
@@ -17,7 +17,11 @@ public final class StreetAddressValidator {
     }
 
     /**
-     * Checks if a given street address is valid.
+     * Checks if a given street address is valid. Street address must consist of
+     * the street name and building number. The code for using regex was
+     * borrowed from w3schools.
+     *
+     * @see <a href="https://www.w3schools.com/java/java_regex.asp">w3schools</a>
      *
      * @param streetAddress Street address to be checked.
      * @param textField The text field the street address input was given in.

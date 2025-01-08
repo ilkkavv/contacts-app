@@ -1,7 +1,5 @@
-package src;
-
-import src.contact.ContactDatabase;
-import src.gui.GuiFrame;
+import contact.ContactDatabase;
+import gui.GuiFrame;
 
 /**
  * The ContactsApp class serves as the entry point to the application, which is

@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,7 +16,11 @@ public final class ForenameValidator {
     }
 
     /**
-     * Checks if a given first name is valid.
+     * Checks if a given first name is valid. The first letter of the name must
+     * be uppercase and is followed by one or more lowercase letters. One hyphen
+     * is allowed. The code for using regex was borrowed from w3schools.
+     *
+     * @see <a href="https://www.w3schools.com/java/java_regex.asp">w3schools</a>
      *
      * @param forename First name to be checked.
      * @return {@code true} if the given first name is valid

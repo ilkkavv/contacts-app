@@ -1,4 +1,4 @@
-package src.contact;
+package contact;
 
 /**
  * The Contact class is used in adding, updating and reading contacts from the

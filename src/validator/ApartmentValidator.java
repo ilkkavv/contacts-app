@@ -1,4 +1,4 @@
-package src.validator;
+package validator;
 
 import javax.swing.JTextField;
 import java.util.regex.Matcher;
@@ -17,7 +17,10 @@ public final class ApartmentValidator {
     }
 
     /**
-     * Checks if a given apartment address is valid.
+     * Checks if a given apartment address is valid. The code for using regex
+     * was borrowed from w3schools.
+     *
+     * @see <a href="https://www.w3schools.com/java/java_regex.asp">w3schools</a>
      *
      * @param apartment Apartment address to be checked.
      * @param textField The text field the apartment address input was given in.

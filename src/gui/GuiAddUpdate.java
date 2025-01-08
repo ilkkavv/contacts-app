@@ -1,16 +1,16 @@
-package src.gui;
+package gui;
 
-import src.contact.Contact;
-import src.contact.ContactDatabase;
-import src.validator.ApartmentValidator;
-import src.validator.CityValidator;
-import src.validator.EmailValidator;
-import src.validator.ForenameValidator;
-import src.validator.IdCodeValidator;
-import src.validator.PhoneValidator;
-import src.validator.PostalCodeValidator;
-import src.validator.StreetAddressValidator;
-import src.validator.SurnameValidator;
+import contact.Contact;
+import contact.ContactDatabase;
+import validator.ApartmentValidator;
+import validator.CityValidator;
+import validator.EmailValidator;
+import validator.ForenameValidator;
+import validator.IdCodeValidator;
+import validator.PhoneValidator;
+import validator.PostalCodeValidator;
+import validator.StreetAddressValidator;
+import validator.SurnameValidator;
 
 import javax.swing.Box;
 import javax.swing.JButton;

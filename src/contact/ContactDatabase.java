@@ -1,4 +1,4 @@
-package src.contact;
+package contact;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,14 +14,9 @@ import java.util.logging.Logger;
  * The ContactDatabase class is used in the database csv file handling. Parts of
  * the file handling methods were borrowed from w3schools and youtube.
  *
- * <pre>
- * @see <a href="https://www.w3schools.com/java/
- * java_files_create.asp">W3Schools</a>
- * </pre>
+ * @see <a href="https://www.w3schools.com/java/java_files_create.asp">w3schools</a>
  *
- * <pre>
  * @see <a href="https://www.youtube.com/watch?v=W1msApchivk">Youtube</a>
- * </pre>
  */
 public class ContactDatabase {
     /**
@@ -38,15 +33,16 @@ public class ContactDatabase {
      */
     public ContactDatabase() {
         try {
-            database = new File("resources" + File.separator + "data"
+			database = new File("resources" + File.separator + "data"
                     + File.separator + "contacts.csv");
             if (database.createNewFile()) {
                 FileWriter writer = new FileWriter(database);
                 writer.write("databaseId,ideCode,forename,"
                         + "surname,phone,address,email");
+                writer.close();
             }
         } catch (IOException e) {
-            LOGGER.log(Level.WARNING, "An error occurred while constructing"
+            LOGGER.log(Level.WARNING, "An error occurred while constructing "
                     + "a ContactDatabase object!", e);
         }
     }

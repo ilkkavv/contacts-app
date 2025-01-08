@@ -1,6 +1,6 @@
-package src.gui;
+package gui;
 
-import src.contact.ContactDatabase;
+import contact.ContactDatabase;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
